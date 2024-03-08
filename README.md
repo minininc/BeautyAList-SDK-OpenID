@@ -27,7 +27,7 @@ Usage example of the OpenID Connect (OIDC) authentication:
 
 ```html
 <script type="text/javascript" src="https://beautyalist.com/embed/button/v1.js" async></script>
-<a class="blist__button" data-client_id="client_id" data-redirect_url="redirect_url">Proceed with BeautyAList</a>
+<a class="blist__openid__button blist__openid__button--default" data-client_id="client_id" data-redirect_url="redirect_url">Proceed with BeautyAList</a>
 ```
 
 2. Сlicking a button redirects to the specific BeautyAList page where one can register or login to the BeautyAList account.
